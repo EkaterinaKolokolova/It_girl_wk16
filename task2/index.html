@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <select class="brand">
+            <option value="" selected>выберите тип</option>
+            <option value="BMW">BMW</option>
+            <option value="AUDI">audi</option>
+            <option value="MERS">MERS</option>
+        </select>
+        <div class="optional">
+            <label>Объем двигателя
+                <input class="volume" type="number" value="1.5">
+            </label>
+            <label>Год выпуска
+                <input class="year" type="number" value="2020">
+            </label>
+            <p>Комплектация</p>
+            <select class="complete">
+                <option value="Business">Business</option>
+                <option value="Comfort">Comfort</option>
+            </select>
+        </div>
+        <label>Кондиционер
+            <input class="check" value="100" type="checkbox">
+        </label>
+        <label>Парктроник
+            <input class="check" value="200" type="checkbox">
+        </label>
+        <label>Чехлы
+            <input class="check" value="300" type="checkbox">
+        </label>
+        <div>
+            <button>Result</button>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
